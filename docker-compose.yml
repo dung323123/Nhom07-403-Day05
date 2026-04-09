@@ -1,0 +1,33 @@
+version: "3.9"
+
+services:
+  frontend:
+    build: ./frontend
+    ports:
+      - "3000:3000"
+    environment:
+      - NEXT_PUBLIC_AGENT_URL=http://ai-agent:8000
+    depends_on:
+      - ai-agent
+
+  ai-agent:
+    build: ./backend/services/ai-agent
+    ports:
+      - "8000:8000"
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - EVAL_URL=http://evaluation:8002
+    volumes:
+      - ./backend/data/mock:/app/data/mock:ro
+    depends_on:
+      - evaluation
+
+  evaluation:
+    build: ./backend/services/evaluation
+    ports:
+      - "8002:8002"
+    volumes:
+      - ./backend/data/eval_logs:/app/logs
+
+volumes:
+  eval_logs:

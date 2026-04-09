@@ -1,7 +1,8 @@
 "use client";
 
 import { useState, useRef, useEffect } from "react";
-import type { ChatRequest, ChatResponse, ActionButton } from "@/types";
+import type { ChatResponse, ActionButton } from "@/types";
+import { post } from "@/lib/api";
 
 interface Message {
   role: "user" | "ai";
@@ -84,19 +85,11 @@ export default function ChatInterface({
     setIsLoading(true);
 
     try {
-      const response = await fetch("http://localhost:8000/chat", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          merchant_id: merchantId,
-          message: userMessage,
-          session_id: "session_" + merchantId, // Simple session for now
-        } as ChatRequest),
+      const data = await post<ChatResponse>("/chat", {
+        merchant_id: merchantId,
+        message: userMessage,
+        session_id: "session_" + merchantId,
       });
-
-      if (!response.ok) throw new Error("Failed to connect to agent");
-
-      const data: ChatResponse = await response.json();
       setMessages((prev) => [...prev, { 
         role: "ai", 
         content: data.message,
@@ -128,15 +121,11 @@ export default function ChatInterface({
     setFeedbackState((prev) => ({ ...prev, [logId]: button.action }));
 
     try {
-      await fetch("http://localhost:8000/feedback", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          log_id: logId,
-          merchant_id: merchantId,
-          signal_type: signalType,
-          details: `User clicked ${button.label}`,
-        }),
+      await post("/feedback", {
+        log_id: logId,
+        merchant_id: merchantId,
+        signal_type: signalType,
+        details: `User clicked ${button.label}`,
       });
     } catch (error) {
       console.error("Feedback error:", error);

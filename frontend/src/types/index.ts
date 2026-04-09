@@ -24,6 +24,18 @@ export interface Merchant {
   items: MenuItem[];
 }
 
+// Merchant menu item (used by merchant dashboard components)
+export type MerchantItemStatus = "available" | "stopped_today" | "suspended";
+
+export interface MerchantItem {
+  id: string;
+  name: string;
+  price: number;
+  description?: string;
+  image?: string;
+  status: MerchantItemStatus;
+}
+
 // POST /chat request/response
 export interface ChatRequest {
   merchant_id: string;

@@ -1,106 +1,65 @@
 [
   {
-    "id": "bami-sot",
-    "name": "Bami Sot - Bánh Mì Đen - Vinhomes Ocean Park",
-    "shortName": "Bami Sot - Bánh Mì Đen",
-    "image": "https://picsum.photos/seed/bamisot/800/400",
-    "thumbnail": "https://picsum.photos/seed/bamisot_t/200/200",
+    "id": "M001",
+    "name": "Phở Gia Truyền Thìn",
+    "shortName": "Phở Gia Truyền Thìn",
+    "image": "https://picsum.photos/seed/phogthin/800/400",
+    "thumbnail": "https://picsum.photos/seed/phogthin_t/200/200",
     "rating": 4.9,
-    "ratingCount": 112,
-    "googleRating": 4.5,
-    "googleRatingCount": 8,
-    "orders": "2.1K+",
-    "distance": "0.3 km",
-    "isPartner": true,
-    "partnerLabel": "XanhPartner",
-    "categories": ["banh-mi", "do-an-nhanh"],
-    "promos": [
-      { "type": "food", "label": "Giá món", "value": "Giảm 120.000đ" },
-      { "type": "ship", "label": "Phí giao hàng", "value": "Đến 100.000đ" }
-    ],
-    "tags": ["Bánh Mì", "Đồ Ăn Nhanh"]
-  },
-  {
-    "id": "ngan-hue-thuong",
-    "name": "Ngan Huế Thương - Vin Ocean Park",
-    "shortName": "Ngan Huế Thương",
-    "image": "https://picsum.photos/seed/nganhue/800/400",
-    "thumbnail": "https://picsum.photos/seed/nganhue_t/200/200",
-    "rating": 5.0,
-    "ratingCount": 7,
-    "googleRating": 4.8,
-    "googleRatingCount": 15,
-    "orders": "800+",
-    "distance": "0.7 km",
-    "isPartner": true,
-    "partnerLabel": "XanhPartner",
-    "categories": ["bun-pho-my"],
-    "promos": [
-      { "type": "food", "label": "Giá món", "value": "Giảm 50.000đ" },
-      { "type": "ship", "label": "Freeship", "value": "0đ" }
-    ],
-    "tags": ["Bún - Phở - Mỳ"]
-  },
-  {
-    "id": "mr-hoi-bun-cha",
-    "name": "Mr Hới - Bún Chả & Bánh Cuốn",
-    "shortName": "Mr Hới - Bún Chả",
-    "image": "https://picsum.photos/seed/mrhoi/800/400",
-    "thumbnail": "https://picsum.photos/seed/mrhoi_t/200/200",
-    "rating": 4.2,
-    "ratingCount": 6,
-    "googleRating": 4.3,
-    "googleRatingCount": 4,
-    "orders": "300+",
-    "distance": "1.2 km",
-    "isPartner": false,
-    "partnerLabel": "",
-    "categories": ["bun-pho-my"],
-    "promos": [
-      { "type": "food", "label": "Giá món", "value": "Giảm 30.000đ" }
-    ],
-    "tags": ["Bún - Phở - Mỳ"]
-  },
-  {
-    "id": "ca-phe-muoi-chu-long",
-    "name": "Cà Phê Muối Chú Long",
-    "shortName": "Cà Phê Muối Chú Long",
-    "image": "https://picsum.photos/seed/caphe/800/400",
-    "thumbnail": "https://picsum.photos/seed/caphe_t/200/200",
-    "rating": 4.7,
-    "ratingCount": 234,
-    "googleRating": 4.6,
-    "googleRatingCount": 45,
-    "orders": "5K+",
+    "ratingCount": 245,
+    "googleRating": 4.7,
+    "googleRatingCount": 120,
+    "orders": "5.2K+",
     "distance": "0.5 km",
     "isPartner": true,
     "partnerLabel": "XanhPartner",
-    "categories": ["tra-sua-ca-phe"],
-    "promos": [
-      { "type": "food", "label": "Giảm 50%", "value": "Tối đa 35k" },
-      { "type": "ship", "label": "Freeship", "value": "0đ" }
-    ],
-    "tags": ["Trà Sữa - Cà Phê"]
-  },
-  {
-    "id": "pho-ha-thanh",
-    "name": "Phở Hà Thành - Vinhomes",
-    "shortName": "Phở Hà Thành",
-    "image": "https://picsum.photos/seed/phoha/800/400",
-    "thumbnail": "https://picsum.photos/seed/phoha_t/200/200",
-    "rating": 4.5,
-    "ratingCount": 88,
-    "googleRating": 4.4,
-    "googleRatingCount": 22,
-    "orders": "1.5K+",
-    "distance": "0.9 km",
-    "isPartner": true,
-    "partnerLabel": "XanhPartner",
     "categories": ["bun-pho-my"],
     "promos": [
-      { "type": "food", "label": "Giá món", "value": "Giảm 40.000đ" },
-      { "type": "ship", "label": "Phí giao hàng", "value": "Đến 50.000đ" }
+      { "type": "food", "label": "Giá món", "value": "Giảm 30.000đ" },
+      { "type": "ship", "label": "Freeship", "value": "0đ" }
     ],
     "tags": ["Bún - Phở - Mỳ"]
+  },
+  {
+    "id": "M002",
+    "name": "Cơm Tấm Bụi Sài Gòn",
+    "shortName": "Cơm Tấm Bụi Sài Gòn",
+    "image": "https://picsum.photos/seed/comtam/800/400",
+    "thumbnail": "https://picsum.photos/seed/comtam_t/200/200",
+    "rating": 4.7,
+    "ratingCount": 189,
+    "googleRating": 4.5,
+    "googleRatingCount": 67,
+    "orders": "3.8K+",
+    "distance": "0.8 km",
+    "isPartner": true,
+    "partnerLabel": "XanhPartner",
+    "categories": ["com"],
+    "promos": [
+      { "type": "food", "label": "Giá món", "value": "Giảm 20.000đ" },
+      { "type": "ship", "label": "Freeship", "value": "0đ" }
+    ],
+    "tags": ["Cơm"]
+  },
+  {
+    "id": "M003",
+    "name": "Mì Cay Sasin 7 Cấp Độ",
+    "shortName": "Mì Cay Sasin",
+    "image": "https://picsum.photos/seed/micay/800/400",
+    "thumbnail": "https://picsum.photos/seed/micay_t/200/200",
+    "rating": 4.5,
+    "ratingCount": 312,
+    "googleRating": 4.3,
+    "googleRatingCount": 95,
+    "orders": "4.1K+",
+    "distance": "1.0 km",
+    "isPartner": true,
+    "partnerLabel": "XanhPartner",
+    "categories": ["bun-pho-my", "do-an-han-quoc"],
+    "promos": [
+      { "type": "food", "label": "Giá món", "value": "Giảm 25.000đ" },
+      { "type": "ship", "label": "Phí giao hàng", "value": "Đến 15.000đ" }
+    ],
+    "tags": ["Bún - Phở - Mỳ", "Đồ Ăn Hàn Quốc"]
   }
 ]

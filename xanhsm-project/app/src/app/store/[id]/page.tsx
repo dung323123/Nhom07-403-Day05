@@ -12,11 +12,12 @@ import { useCartStore } from "@/store/cartStore";
 import { formatVND } from "@/lib/format";
 import stores from "@/data/stores.json";
 import allMenuItems from "@/data/menu_items.json";
+import StoreChatWidget from "@/components/chat/StoreChatWidget";
 import type { Store, MenuItem } from "@/types";
 
 const TABS: { key: string; label: string }[] = [
   { key: "deals", label: "Ưu đãi hôm nay" },
-  { key: "new", label: "Món Mới Giảm Đẩm" },
+  { key: "new", label: "Món Mới Giảm Đậm" },
   { key: "drinks", label: "Đồ uống" },
 ];
 
@@ -254,6 +255,9 @@ export default function StorePage() {
       </div>
 
       <div className="h-8" />
+
+      {/* AI Chat Widget — connects to POST /chat backend */}
+      <StoreChatWidget merchantId={id} storeName={store.shortName} />
     </div>
   );
 }

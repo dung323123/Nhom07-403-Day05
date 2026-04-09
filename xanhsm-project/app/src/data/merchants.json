@@ -5,10 +5,6 @@
     "description": "Lưu ý từ quán: Quán sử dụng nước hầm xương bò chung cho các món phở. Khách có thể yêu cầu nước béo, nước trong, hoặc không cho hành/mùi. Quẩy có thể hết sớm vào buổi tối.",
     "faqs": [
       {
-        "question": "Số điện thoại của quán là gì?",
-        "answer": "Số điện thoại của quán là 0123456789."
-      },
-      {
         "question": "Quán đóng gói mang về như thế nào? Nước và phở có để riêng không?",
         "answer": "Để đảm bảo chất lượng, quán luôn đóng gói bánh phở và thịt ở một hộp riêng, nước dùng đựng trong túi zip giữ nhiệt riêng. Khi ăn bạn mới cần đổ nước vào."
       },
@@ -19,74 +15,6 @@
       {
         "question": "Quán mở cửa đến mấy giờ?",
         "answer": "Quán nhận đơn XanhSM Food từ 6:00 sáng đến 23:00 tối hàng ngày."
-      },
-      {
-        "question": "Nước hầm có dùng mì chính (bột ngọt) không?",
-        "answer": "Nước dùng của quán được hầm hoàn toàn từ xương ống bò trong 12 tiếng để tạo vị ngọt thanh tự nhiên, hạn chế tối đa việc sử dụng bột ngọt."
-      },
-      {
-        "question": "Tôi muốn yêu cầu không cho hành lá được không?",
-        "answer": "Hoàn toàn được. Bạn vui lòng ghi chú 'Không cho hành' trong phần ghi chú đơn hàng khi đặt món."
-      },
-      {
-        "question": "Nếu phở bị nguội khi giao tới, tôi nên hâm lại thế nào?",
-        "answer": "Bạn nên đổ nước dùng vào nồi đun sôi lại, sau đó mới cho bánh phở vào tô và đổ nước sôi lên để bánh phở không bị nát."
-      },
-      {
-        "question": "Quán có bán phở bò sốt vang không?",
-        "answer": "Có, phở bò sốt vang là món đặc sản của quán với thịt bò hầm rượu vang mềm tan, bạn có thể tìm thấy trong menu."
-      },
-      {
-        "question": "Quẩy ở đây là quẩy giòn hay quẩy mềm?",
-        "answer": "Quán phục vụ quẩy giòn truyền thống. Tuy nhiên quẩy rất nhanh hết khách nên ưu tiên đặt sớm vào buổi sáng hoặc trưa."
-      },
-      {
-        "question": "Quán có bán phở bò gân không?",
-        "answer": "Có, phở gân bò giòn sựt là một trong những món được yêu thích nhất. Gân được hầm nhừ nhưng vẫn giữ được độ dai giòn."
-      },
-      {
-        "question": "Tôi có thể đặt đơn hàng lớn cho văn phòng không?",
-        "answer": "Quán có nhận đơn hàng lớn. Với các đơn trên 20 bát, vui lòng đặt trước 30-60 phút để quán chuẩn bị kỹ lưỡng nhất."
-      },
-      {
-        "question": "Quán có chỗ ngồi ăn tại chỗ không?",
-        "answer": "Có, quán tọa lạc tại số 13 Lò Đúc, Hai Bà Trưng, Hà Nội. Bạn có thể ghé ăn trực tiếp từ 6h đến 22h."
-      },
-      {
-        "question": "Thịt bò ở đây là bò gì?",
-        "answer": "Quán cam kết sử dụng thịt bò tươi nhập mới mỗi sáng từ các lò mổ uy tín, đảm bảo độ ngọt và mềm của thịt."
-      },
-      {
-        "question": "Tôi có thể yêu cầu nước béo không?",
-        "answer": "Được, quán luôn có sẵn nước béo hầm xương. Bạn vui lòng ghi chú 'Nước béo' hoặc 'Nước trong' tùy sở thích."
-      },
-      {
-        "question": "Nước dùng có mặn không?",
-        "answer": "Nước dùng được nêm nếm đậm đà theo chuẩn vị truyền thống Hà Nội xưa. Nếu bạn ăn nhạt, có thể yêu cầu quán kèm thêm nước sôi hoặc ghi chú 'Ăn cực nhạt'."
-      },
-      {
-        "question": "Phở có kèm rau thơm không?",
-        "answer": "Mỗi phần phở đều có hành lá, mùi tàu xắt nhỏ. Các loại rau ăn kèm như húng quế và kinh giới được quán đóng gói riêng sạch sẽ."
-      },
-      {
-        "question": "Nếu đơn hàng có vấn đề (thiếu món), tôi phải làm sao?",
-        "answer": "Bạn vui lòng liên hệ hotline XanhSM hoặc nhắn tin trực tiếp cho quán qua ứng dụng để được xử lý bù món hoặc hoàn tiền ngay lập tức."
-      },
-      {
-        "question": "Quán có bán phở bò viên không?",
-        "answer": "Có, bò viên là món phụ cực ngon của quán. Bạn có thể gọi bát bò viên riêng hoặc yêu cầu thêm vào bát phở chính."
-      },
-      {
-        "question": "Tôi bị dị ứng lạc (đậu phộng), món ăn của quán có an toàn không?",
-        "answer": "Các món phở truyền thống của quán không sử dụng lạc. Tuy nhiên để an toàn tuyệt đối, vui lòng vẫn ghi chú 'Dị ứng lạc' để nhân viên kiểm tra kỹ các gia vị đi kèm."
-      },
-      {
-        "question": "Tôi có thể xin thêm nước dùng không?",
-        "answer": "Trong các đơn mang về, quán luôn đóng gói lượng nước dùng hào phóng. Nếu bạn cần nhiều hơn, vui lòng ghi chú 'Xin thêm nước dùng'."
-      },
-      {
-        "question": "Quán dùng hộp nhựa hay hộp giấy?",
-        "answer": "Quán sử dụng hộp nhựa thực phẩm chịu nhiệt đạt chuẩn an toàn vệ sinh để đảm bảo nước phở sôi nóng không gây ảnh hưởng đến sức khỏe."
       }
     ],
     "items": [
@@ -124,7 +52,7 @@
         "id": "item_103",
         "name": "Quẩy giòn",
         "price": 10000,
-        "description": "Quẩy chiên giòn rụm, ăn kèm với phở rất hợp vị.",
+        "description": null,
         "ingredients": [
           "bột mì",
           "dầu ăn"
@@ -233,28 +161,8 @@
     "description": "Lưu ý từ quán: Khách có thể yêu cầu thêm mỡ hành, tóp mỡ hoặc xin thêm nước mắm miễn phí. Vui lòng ghi chú nếu không ăn đồ chua hoặc dị ứng với các loại hạt (quán có dùng dầu đậu phộng để chiên).",
     "faqs": [
       {
-        "question": "Số điện thoại của quán là gì?",
-        "answer": "Số điện thoại của quán là 0987654321."
-      },
-      {
         "question": "Quán có cho kèm muỗng nĩa nhựa không?",
-        "answer": "Theo chính sách bảo vệ môi trường, quán không mặc định giao kèm muỗng nĩa nhựa. Bạn vui lòng chọn 'Lấy muỗng nĩa' trong phần tùy chọn nếu cần."
-      },
-      {
-        "question": "Tại sao cơm tấm ở đây lại có vị ngọt hơn bình thường?",
-        "answer": "Cơm tấm Bụi Sài Gòn nấu theo chuẩn vị miền Tây, nước mắm và sườn đều có độ ngọt đặc trưng từ đường thốt nốt và mật ong."
-      },
-      {
-        "question": "Sườn ở đây là sườn gì? Có xương không?",
-        "answer": "Quán sử dụng sườn cốt lết dày miếng, có xương rìa để giữ độ ngọt của thịt khi nướng than hoa."
-      },
-      {
-        "question": "Tôi có thể xin thêm mỡ hành và tóp mỡ không?",
-        "answer": "Có, mỡ hành và tóp mỡ là miễn phí. Bạn chỉ cần nhắn lại trong phần ghi chú đơn hàng."
-      },
-      {
-        "question": "Một phần cơm có đi kèm canh không?",
-        "answer": "Mỗi phần cơm đều được tặng kèm một bát canh rau theo mùa miễn phí. Bạn cũng có thể đặt thêm canh khổ qua nhồi thịt nếu muốn."
+        "answer": "Theo chính sách bảo vệ môi trường, quán không mặc định giao kèm muỗng nĩa nhựa."
       }
     ],
     "items": [
@@ -348,7 +256,7 @@
           "bì heo",
           "thính"
         ],
-        "is_avaiable": true,  
+        "is_avaiable": true,
         "quantity": 10
       },
       {
@@ -368,7 +276,11 @@
         "name": "Nước mắm chua ngọt",
         "price": 5000,
         "description": "Nước mắm pha đặc biệt.",
-        "ingredients": [],
+        "ingredients": [
+          "nước mắm",
+          "tỏi",
+          "ớt"
+        ],
         "is_avaiable": true,
         "quantity": 10
       },
@@ -392,28 +304,8 @@
     "description": "Lưu ý từ quán: Khách hàng có thể tuỳ chỉnh độ cay từ cấp độ 0 đến cấp độ 7.",
     "faqs": [
       {
-        "question": "Số điện thoại của quán là gì?",
-        "answer": "Số điện thoại của quán là 0888888888."
-      },
-      {
         "question": "Mì giao đến nơi có bị nở và nhũn không?",
-        "answer": "Quán luôn để riêng nước dùng trong túi zip và mì trong hộp riêng. Khi ăn bạn mới trộn vào nên mì vẫn giữ được độ dai như ăn tại quán."
-      },
-      {
-        "question": "Cấp độ 7 là cay nhất đúng không? Có lưu ý gì không?",
-        "answer": "Đúng vậy, cấp độ 7 sử dụng ớt Naga siêu cay. Chúng tôi khuyến cáo khách hàng có bệnh về dạ dày hoặc không quen ăn cay cực độ không nên thử cấp độ này."
-      },
-      {
-        "question": "Mì Koreno ở đây có dùng sợi mì tươi không?",
-        "answer": "Quán sử dụng mì Koreno sợi dai chuẩn Hàn Quốc, không phải mì tươi sản xuất trong ngày."
-      },
-      {
-        "question": "Quán có món nào không cay cho trẻ em không?",
-        "answer": "Có, bạn có thể chọn 'Cấp độ 0' cho tất cả các loại mì, hoặc đặt các món phụ như Takoyaki, Kimbap chiên xù."
-      },
-      {
-        "question": "Tôi có thể yêu cầu thêm phô mai vào mì không?",
-        "answer": "Có, trong menu có phần tùy chọn 'Thêm phô mai lát' hoặc 'Thêm phô mai sợi' với giá 15.000đ."
+        "answer": "Quán luôn để riêng nước dùng, nên mì sẽ không bị nhũn."
       }
     ],
     "items": [

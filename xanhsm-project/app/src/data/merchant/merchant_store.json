@@ -1,0 +1,14 @@
+{
+  "id": "store-001",
+  "name": "Xanh SM Nguyễn Thị Minh Khai",
+  "shortName": "Xanh SM NT Minh Khai",
+  "address": "72 Lê Thành Tôn, Bến Nghé, Quận 1, Hồ Chí Minh",
+  "phone": "0901234567",
+  "bankAccount": {
+    "bank": "Standard Chartered Vietnam",
+    "accountNumber": "**3468",
+    "accountName": "Trương Văn Sơn"
+  },
+  "balance": 1500000,
+  "status": "open"
+}

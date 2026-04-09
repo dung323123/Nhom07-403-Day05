@@ -1,0 +1,180 @@
+{
+  "bami-sot": [
+    {
+      "id": "combo-banh-mi-pate",
+      "storeId": "bami-sot",
+      "name": "Combo Bánh Mì Pate Bò Chả Trứng + Nước",
+      "description": "Combo bánh mì pate bò với chả trứng kèm nước uống",
+      "image": "https://picsum.photos/seed/item1/400/400",
+      "price": 49000,
+      "originalPrice": 70000,
+      "discount": 30,
+      "isBestSeller": true,
+      "tab": "deals"
+    },
+    {
+      "id": "com-tho-trung-cuon",
+      "storeId": "bami-sot",
+      "name": "Cơm Thố Trứng Cuộn Sốt BBQ",
+      "description": "Cơm thố với trứng cuộn sốt BBQ đặc trưng",
+      "image": "https://picsum.photos/seed/item2/400/400",
+      "price": 35000,
+      "originalPrice": 50000,
+      "discount": 30,
+      "isBestSeller": true,
+      "tab": "deals"
+    },
+    {
+      "id": "combo-2-banh-mi-sot-bo",
+      "storeId": "bami-sot",
+      "name": "Combo 2 Bánh Mì Sốt Bơ",
+      "description": "Combo gồm 2 Bánh Mì Sốt Bơ",
+      "image": "https://picsum.photos/seed/item3/400/400",
+      "price": 28000,
+      "originalPrice": 40000,
+      "discount": 30,
+      "isBestSeller": false,
+      "tab": "deals"
+    },
+    {
+      "id": "banh-mi-den-ca-hoi",
+      "storeId": "bami-sot",
+      "name": "Bánh Mì Đen Cá Hồi Sốt Kem",
+      "description": "Bánh mì đen với cá hồi tươi và sốt kem đặc biệt",
+      "image": "https://picsum.photos/seed/item4/400/400",
+      "price": 45000,
+      "originalPrice": 55000,
+      "discount": 18,
+      "isBestSeller": true,
+      "tab": "new"
+    },
+    {
+      "id": "banh-mi-xuc-xich",
+      "storeId": "bami-sot",
+      "name": "Bánh Mì Xúc Xích Phô Mai",
+      "description": "Bánh mì với xúc xích và phô mai béo ngậy",
+      "image": "https://picsum.photos/seed/item5/400/400",
+      "price": 32000,
+      "originalPrice": 40000,
+      "discount": 20,
+      "isBestSeller": false,
+      "tab": "new"
+    },
+    {
+      "id": "nuoc-chanh-leo",
+      "storeId": "bami-sot",
+      "name": "Nước Chanh Leo Tươi",
+      "description": "Nước chanh leo tươi mát, giải khát",
+      "image": "https://picsum.photos/seed/item6/400/400",
+      "price": 18000,
+      "originalPrice": 25000,
+      "discount": 0,
+      "isBestSeller": false,
+      "tab": "drinks"
+    }
+  ],
+  "ngan-hue-thuong": [
+    {
+      "id": "bun-bo-hue-dac-biet",
+      "storeId": "ngan-hue-thuong",
+      "name": "Bún Bò Huế Đặc Biệt",
+      "description": "Bún bò Huế chuẩn vị với chả cua và bắp bò",
+      "image": "https://picsum.photos/seed/item7/400/400",
+      "price": 65000,
+      "originalPrice": 80000,
+      "discount": 0,
+      "isBestSeller": true,
+      "tab": "deals"
+    },
+    {
+      "id": "bun-bo-hue-thuong",
+      "storeId": "ngan-hue-thuong",
+      "name": "Bún Bò Huế Thường",
+      "description": "Bún bò Huế vị chua cay truyền thống",
+      "image": "https://picsum.photos/seed/item8/400/400",
+      "price": 45000,
+      "originalPrice": 55000,
+      "discount": 0,
+      "isBestSeller": false,
+      "tab": "deals"
+    }
+  ],
+  "mr-hoi-bun-cha": [
+    {
+      "id": "bun-cha-ha-noi",
+      "storeId": "mr-hoi-bun-cha",
+      "name": "Bún Chả Hà Nội",
+      "description": "Bún chả Hà Nội chuẩn vị với chả viên và chả miếng",
+      "image": "https://picsum.photos/seed/item9/400/400",
+      "price": 55000,
+      "originalPrice": 65000,
+      "discount": 0,
+      "isBestSeller": true,
+      "tab": "deals"
+    },
+    {
+      "id": "banh-cuon-nhan-thit",
+      "storeId": "mr-hoi-bun-cha",
+      "name": "Bánh Cuốn Nhân Thịt",
+      "description": "Bánh cuốn hấp mỏng nhân thịt nấm đặc trưng",
+      "image": "https://picsum.photos/seed/item10/400/400",
+      "price": 40000,
+      "originalPrice": 50000,
+      "discount": 0,
+      "isBestSeller": false,
+      "tab": "deals"
+    }
+  ],
+  "ca-phe-muoi-chu-long": [
+    {
+      "id": "ca-phe-muoi-truyen-thong",
+      "storeId": "ca-phe-muoi-chu-long",
+      "name": "Cà Phê Muối Truyền Thống",
+      "description": "Cà phê muối đặc trưng với lớp kem muối béo ngậy",
+      "image": "https://picsum.photos/seed/item11/400/400",
+      "price": 29000,
+      "originalPrice": 45000,
+      "discount": 35,
+      "isBestSeller": true,
+      "tab": "deals"
+    },
+    {
+      "id": "ca-phe-sua-da",
+      "storeId": "ca-phe-muoi-chu-long",
+      "name": "Cà Phê Sữa Đá",
+      "description": "Cà phê sữa đá đậm đà, thơm ngon",
+      "image": "https://picsum.photos/seed/item12/400/400",
+      "price": 22000,
+      "originalPrice": 30000,
+      "discount": 25,
+      "isBestSeller": true,
+      "tab": "deals"
+    }
+  ],
+  "pho-ha-thanh": [
+    {
+      "id": "pho-bo-chin-gau",
+      "storeId": "pho-ha-thanh",
+      "name": "Phở Bò Chín Gầu",
+      "description": "Phở bò nước trong, thịt chín gầu mềm",
+      "image": "https://picsum.photos/seed/item13/400/400",
+      "price": 60000,
+      "originalPrice": 70000,
+      "discount": 0,
+      "isBestSeller": true,
+      "tab": "deals"
+    },
+    {
+      "id": "pho-bo-tai-chin",
+      "storeId": "pho-ha-thanh",
+      "name": "Phở Bò Tái Chín",
+      "description": "Phở bò tái chín nước dùng ngọt thanh",
+      "image": "https://picsum.photos/seed/item14/400/400",
+      "price": 65000,
+      "originalPrice": 75000,
+      "discount": 0,
+      "isBestSeller": false,
+      "tab": "deals"
+    }
+  ]
+}

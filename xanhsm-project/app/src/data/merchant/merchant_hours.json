@@ -1,0 +1,21 @@
+{
+  "schedule": [
+    { "day": "Thứ 2", "key": "mon", "isOpen": true,  "is24h": false, "slots": [{ "open": "08:00", "close": "22:00" }] },
+    { "day": "Thứ 3", "key": "tue", "isOpen": false, "is24h": false, "slots": [] },
+    { "day": "Thứ 4", "key": "wed", "isOpen": true,  "is24h": false, "slots": [{ "open": "08:00", "close": "14:00" }, { "open": "17:00", "close": "22:00" }] },
+    { "day": "Thứ 5", "key": "thu", "isOpen": true,  "is24h": false, "slots": [{ "open": "08:00", "close": "22:00" }] },
+    { "day": "Thứ 6", "key": "fri", "isOpen": true,  "is24h": false, "slots": [{ "open": "08:00", "close": "23:00" }] },
+    { "day": "Thứ 7", "key": "sat", "isOpen": true,  "is24h": true,  "slots": [] },
+    { "day": "Chủ nhật", "key": "sun", "isOpen": true, "is24h": true, "slots": [] }
+  ],
+  "specialDates": [
+    {
+      "id": "sp-001",
+      "name": "Nghỉ lễ 30/4",
+      "startDate": "2026-04-30",
+      "endDate": "2026-05-01",
+      "closedAllDay": true,
+      "slots": []
+    }
+  ]
+}

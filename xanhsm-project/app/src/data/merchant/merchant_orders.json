@@ -1,0 +1,103 @@
+{
+  "orders": [
+    {
+      "id": "ord-001",
+      "code": "GSM-1551",
+      "status": "new",
+      "time": "13:30",
+      "date": "2026-04-09",
+      "itemCount": 3,
+      "total": 150000,
+      "driverAssigned": false,
+      "driverNote": "Chưa chỉ định tài xế",
+      "customer": { "name": "Lê Nhật Tân", "phone": "0912345678" },
+      "driver":   { "name": "Lê Nhật Tân", "phone": "0912345678" },
+      "items": [
+        { "name": "Trà sữa thái xanh vị bạc hà", "qty": 2, "price": 43000, "toppings": ["Trân châu đen", "Thạch cà phê"] },
+        { "name": "Cà phê sữa đá",               "qty": 1, "price": 35000, "toppings": [] }
+      ]
+    },
+    {
+      "id": "ord-002",
+      "code": "GSM-1552",
+      "status": "new",
+      "time": "13:30",
+      "date": "2026-04-09",
+      "itemCount": 3,
+      "total": 90000,
+      "driverAssigned": false,
+      "driverNote": "Chưa chỉ định tài xế",
+      "customer": { "name": "Nguyễn Văn An", "phone": "0987654321" },
+      "driver":   { "name": "", "phone": "" },
+      "items": [
+        { "name": "Trà sữa thái xanh đào", "qty": 2, "price": 45000, "toppings": ["Pudding trứng"] },
+        { "name": "Bánh mì thịt nướng",    "qty": 1, "price": 28000, "toppings": ["Thêm trứng"] }
+      ]
+    },
+    {
+      "id": "ord-003",
+      "code": "GSM-1553",
+      "status": "new",
+      "time": "13:30",
+      "date": "2026-04-09",
+      "itemCount": 2,
+      "total": 33000,
+      "driverAssigned": false,
+      "driverNote": "Chưa chỉ định tài xế",
+      "customer": { "name": "Trần Thị Bích", "phone": "0978123456" },
+      "driver":   { "name": "", "phone": "" },
+      "items": [
+        { "name": "Bạc xỉu",       "qty": 1, "price": 32000, "toppings": [] },
+        { "name": "Bánh mì thịt nướng", "qty": 1, "price": 28000, "toppings": [] }
+      ]
+    },
+    {
+      "id": "ord-004",
+      "code": "GSM-1554",
+      "status": "confirmed",
+      "time": "13:28",
+      "date": "2026-04-09",
+      "itemCount": 1,
+      "total": 43000,
+      "driverAssigned": true,
+      "driverNote": "Đang thực hiện",
+      "customer": { "name": "Phạm Thúy Hằng", "phone": "0933456789" },
+      "driver":   { "name": "Nguyễn Quốc Hùng", "phone": "0944567890" },
+      "items": [
+        { "name": "Trà sữa thái xanh vị bạc hà", "qty": 1, "price": 43000, "toppings": ["Trân châu đen"] }
+      ]
+    },
+    {
+      "id": "ord-005",
+      "code": "GSM-1555",
+      "status": "history_cancelled",
+      "time": "13:29",
+      "date": "2026-04-09",
+      "itemCount": 2,
+      "total": 510000,
+      "driverAssigned": false,
+      "driverNote": "Đã huỷ",
+      "customer": { "name": "Đinh Minh Khoa", "phone": "0955678901" },
+      "driver":   { "name": "", "phone": "" },
+      "items": [
+        { "name": "Trà sữa thái xanh đào", "qty": 2, "price": 45000, "toppings": [] }
+      ]
+    },
+    {
+      "id": "ord-006",
+      "code": "GSM-1556",
+      "status": "history_done",
+      "time": "13:29",
+      "date": "2026-04-09",
+      "itemCount": 3,
+      "total": 510000,
+      "driverAssigned": true,
+      "driverNote": "Hoàn thành",
+      "customer": { "name": "Võ Ngọc Lan", "phone": "0966789012" },
+      "driver":   { "name": "Trần Văn Bình", "phone": "0977890123" },
+      "items": [
+        { "name": "Cà phê sữa đá", "qty": 3, "price": 35000, "toppings": [] }
+      ]
+    }
+  ]
+}

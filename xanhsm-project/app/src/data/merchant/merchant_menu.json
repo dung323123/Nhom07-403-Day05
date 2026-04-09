@@ -1,0 +1,86 @@
+{
+  "categories": [
+    {
+      "id": "cat-001",
+      "name": "Trà sữa thái xanh",
+      "items": [
+        {
+          "id": "item-001",
+          "name": "Trà sữa thái xanh vị bạc hà",
+          "description": "Mát lạnh tuyệt vời, hương bạc hà tươi mát",
+          "price": 43000,
+          "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=300&q=70",
+          "status": "available",
+          "toppingGroupIds": ["top-001"]
+        },
+        {
+          "id": "item-002",
+          "name": "Trà sữa thái xanh đào",
+          "description": "Vị đào ngọt thanh kết hợp trà sữa béo mịn",
+          "price": 45000,
+          "image": "https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=300&q=70",
+          "status": "available",
+          "toppingGroupIds": ["top-001"]
+        }
+      ]
+    },
+    {
+      "id": "cat-002",
+      "name": "Cà phê",
+      "items": [
+        {
+          "id": "item-003",
+          "name": "Cà phê sữa đá",
+          "description": "Cà phê Arabica rang xay, pha phin truyền thống",
+          "price": 35000,
+          "image": "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=300&q=70",
+          "status": "available",
+          "toppingGroupIds": []
+        },
+        {
+          "id": "item-004",
+          "name": "Bạc xỉu",
+          "description": "Sữa nhiều cà phê ít, vị ngọt nhẹ",
+          "price": 32000,
+          "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=300&q=70",
+          "status": "stopped_today",
+          "toppingGroupIds": []
+        }
+      ]
+    },
+    {
+      "id": "cat-003",
+      "name": "Bánh mì",
+      "items": [
+        {
+          "id": "item-005",
+          "name": "Bánh mì thịt nướng",
+          "description": "Thịt heo nướng mật ong, rau sống, tương đen",
+          "price": 28000,
+          "image": "https://images.unsplash.com/photo-1509722747041-616f39b57569?w=300&q=70",
+          "status": "available",
+          "toppingGroupIds": ["top-002"]
+        }
+      ]
+    }
+  ],
+  "toppingGroups": [
+    {
+      "id": "top-001",
+      "name": "Thêm topping trà sữa",
+      "options": [
+        { "id": "tp-001", "name": "Trân châu đen", "price": 5000 },
+        { "id": "tp-002", "name": "Thạch cà phê",  "price": 5000 },
+        { "id": "tp-003", "name": "Pudding trứng", "price": 8000 }
+      ]
+    },
+    {
+      "id": "top-002",
+      "name": "Chọn thêm nhân",
+      "options": [
+        { "id": "tp-004", "name": "Thêm trứng",    "price": 5000 },
+        { "id": "tp-005", "name": "Thêm patê",     "price": 3000 }
+      ]
+    }
+  ]
+}

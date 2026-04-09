@@ -1,0 +1,41 @@
+{
+  "balance": 1500000,
+  "transactions": [
+    {
+      "id": "tx-001",
+      "amount": 1180000000,
+      "type": "withdraw",
+      "status": "done",
+      "date": "27/04/2025 21:47",
+      "recipient": "Trương Văn Sơn",
+      "store": "Starbucks Hàn Thuyên, quận 1, Thành Phố Hồ Chí Minh",
+      "bank": "OCB",
+      "account": "**3468",
+      "txCode": "123123123"
+    },
+    {
+      "id": "tx-002",
+      "amount": 750000,
+      "type": "withdraw",
+      "status": "done",
+      "date": "25/04/2025 10:15",
+      "recipient": "Trương Văn Sơn",
+      "store": "Xanh SM Nguyễn Thị Minh Khai",
+      "bank": "Standard Chartered Vietnam",
+      "account": "**3468",
+      "txCode": "456456456"
+    },
+    {
+      "id": "tx-003",
+      "amount": 300000,
+      "type": "withdraw",
+      "status": "cancelled",
+      "date": "20/04/2025 16:30",
+      "recipient": "Trương Văn Sơn",
+      "store": "Xanh SM Nguyễn Thị Minh Khai",
+      "bank": "Standard Chartered Vietnam",
+      "account": "**3468",
+      "txCode": "789789789"
+    }
+  ]
+}

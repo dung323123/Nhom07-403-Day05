@@ -1,0 +1,18 @@
+[
+  {
+    "id": "conv_001",
+    "description": "Happy path — user hỏi allergen, AI trả lời đúng + disclaimer",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Tôi bị dị ứng tôm, quán có món gì không có tôm không?"
+      },
+      {
+        "role": "assistant",
+        "content": "Các món không có tôm: Cơm gà nướng (75k), Cơm bò lúc lắc (95k), Bún bò Huế (65k).\n⚠️ AI có thể có lỗi. Nếu bạn có dị ứng thực phẩm, vui lòng xác nhận trực tiếp với quán.",
+        "confidence": "high",
+        "disclaimer": "⚠️ AI có thể có lỗi. Nếu bạn có dị ứng thực phẩm, vui lòng xác nhận trực tiếp với quán."
+      }
+    ]
+  }
+]

@@ -1,0 +1,64 @@
+{
+  "store_id": "store_001",
+  "store_name": "XanhSM Food - Chi nhánh 1",
+  "phone": "028-1234-5678",
+  "address": "123 Nguyễn Trãi, Q.1, TP.HCM",
+  "items": [
+    {
+      "id": "item_001",
+      "store_id": "store_001",
+      "name": "Cơm gà nướng",
+      "price": 75000,
+      "category": "cơm",
+      "description": "Cơm trắng dẻo, gà nướng mật ong thơm lừng, kèm rau sống",
+      "allergens": ["gluten"],
+      "ingredients": ["cơm", "gà", "mật ong", "hành", "tỏi", "rau sống"],
+      "is_available": true,
+      "image_url": "https://example.com/images/com-ga-nuong.jpg",
+      "spicy_level": 0,
+      "updated_at": "2026-04-01T07:00:00Z"
+    },
+    {
+      "id": "item_002",
+      "store_id": "store_001",
+      "name": "Cơm bò lúc lắc",
+      "price": 95000,
+      "category": "cơm",
+      "description": "Cơm trắng, bò xào sốt bò lúc lắc đặc biệt, kèm rau cải",
+      "allergens": ["bò", "gluten", "soy"],
+      "ingredients": ["cơm", "thịt bò", "sốt bò", "rau cải", "hành tây"],
+      "is_available": true,
+      "image_url": "https://example.com/images/com-bo-luc-lac.jpg",
+      "spicy_level": 1,
+      "updated_at": "2026-04-01T07:00:00Z"
+    },
+    {
+      "id": "item_003",
+      "store_id": "store_001",
+      "name": "Bún bò Huế",
+      "price": 65000,
+      "category": "bún",
+      "description": "Bún bò Huế chuẩn vị miền Trung, nước dùng đậm đà",
+      "allergens": null,
+      "ingredients": null,
+      "is_available": true,
+      "image_url": "https://example.com/images/bun-bo-hue.jpg",
+      "spicy_level": 3,
+      "updated_at": "2026-04-01T07:00:00Z"
+    },
+    {
+      "id": "item_004",
+      "store_id": "store_001",
+      "name": "Mì xào hải sản",
+      "price": 85000,
+      "category": "mì",
+      "description": "Mì xào giòn với tôm, mực, rau củ tươi",
+      "allergens": ["tôm", "mực", "hải sản", "gluten"],
+      "ingredients": ["mì", "tôm", "mực", "cà rốt", "bông cải", "dầu hào"],
+      "is_available": false,
+      "image_url": "https://example.com/images/mi-xao-hai-san.jpg",
+      "spicy_level": 0,
+      "updated_at": "2026-04-01T07:00:00Z"
+    }
+  ]
+}

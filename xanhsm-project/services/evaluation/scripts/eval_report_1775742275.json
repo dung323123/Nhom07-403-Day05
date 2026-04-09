@@ -1,0 +1,103 @@
+{
+  "metrics": {
+    "total": 10,
+    "correct": 9,
+    "accuracy": 0.9,
+    "precision": 1.125,
+    "answer_rate": 0.8,
+    "false_positives": 1,
+    "false_negatives": 0
+  },
+  "details": [
+    {
+      "id": "qa_001",
+      "question": "Tôi bị dị ứng bò, quán có món nào không có thịt bò không?",
+      "latency_s": 7.533818244934082,
+      "passed": true,
+      "is_unsure": false,
+      "reason": "Exact Match",
+      "ai_resp": "Quán có một số món không có thịt bò bạn có thể tham khảo:\n\n1. **Phở gà ta xé phay**\n   - **Giá:** 55,000 VND\n   - **Mô tả:** Gà ta thả vườn xé phay, nước trong, thanh ngọt.\n\n2. **Trứng chần**\n   - **Giá:** 10,000 VND\n   - **Mô tả:** Trứng gà ta chần lòng đào.\n\n3. **Sữa đậu nành**\n   - **Giá:** 15,000 VND\n   - **Mô tả:** Sữa đậu nành nguyên chất, ít đường.\n\nNếu bạn có thêm yêu cầu nào khác hoặc muốn đặt món, hãy cho mình biết nhé!"
+    },
+    {
+      "id": "qa_002",
+      "question": "Phở đặc biệt có gây dị ứng đậu phộng không?",
+      "latency_s": 3.8605098724365234,
+      "passed": true,
+      "is_unsure": true,
+      "reason": "Correctly identified as unsure",
+      "ai_resp": "Quán chưa cung cấp thông tin chi tiết về các nguyên liệu cụ thể có trong món Phở đặc biệt. Tuy nhiên, theo thông tin hiện có, món này bao gồm bánh phở, thịt bò, gân bò, bò viên và hành lá. \n\nĐể chắc chắn về việc có dị ứng với đậu phộng hay không, bạn nên liên hệ trực tiếp với quán. Xin xác nhận với quán nếu bạn có dị ứng nhé!"
+    },
+    {
+      "id": "qa_003",
+      "question": "Bây giờ tôi đặt phần quẩy giòn nhé?",
+      "latency_s": 4.930809020996094,
+      "passed": true,
+      "is_unsure": false,
+      "reason": "Exact Match",
+      "ai_resp": "Rất tiếc, phần quẩy giòn hiện tại đang tạm hết hàng, không thể đặt được. Bạn có muốn thử món khác không?"
+    },
+    {
+      "id": "qa_004",
+      "question": "Quán mở cửa đến mấy giờ?",
+      "latency_s": 1.9563932418823242,
+      "passed": true,
+      "is_unsure": false,
+      "reason": "Exact Match",
+      "ai_resp": "Quán Phở Gia Truyền Thìn mở cửa từ 6:00 sáng đến 23:00 tối hàng ngày. Nếu bạn cần đặt món, đừng ngần ngại nhé!"
+    },
+    {
+      "id": "qa_005",
+      "question": "Con tôi bị dị ứng sữa bò, món Cơm sườn bì chả có dùng bơ hay sữa không?",
+      "latency_s": 2.91987681388855,
+      "passed": true,
+      "is_unsure": true,
+      "reason": "Correctly identified as unsure",
+      "ai_resp": "Món Cơm sườn bì chả không sử dụng bơ hay sữa, chỉ có các nguyên liệu như gạo tấm, sườn heo, trứng, bì heo và nước mắm. Tuy nhiên, để đảm bảo an toàn, bạn vẫn nên xin xác nhận với quán nếu bạn có dị ứng."
+    },
+    {
+      "id": "qa_006",
+      "question": "Quán có cho kèm muỗng nĩa nhựa không để tôi mang đi làm ăn?",
+      "latency_s": 2.2898683547973633,
+      "passed": true,
+      "is_unsure": false,
+      "reason": "Exact Match",
+      "ai_resp": "Quán không mặc định giao kèm muỗng nĩa nhựa để bảo vệ môi trường. Nếu bạn cần, hãy ghi chú khi đặt hàng và quán sẽ xem xét để phục vụ bạn nhé!"
+    },
+    {
+      "id": "qa_007",
+      "question": "Tôi muốn lấy Cơm xào hải sản.",
+      "latency_s": 2.2798759937286377,
+      "passed": true,
+      "is_unsure": false,
+      "reason": "Exact Match",
+      "ai_resp": "Xin lỗi, món \"Cơm xào hải sản\" hiện đang tạm hết hàng. Bạn có muốn thử một món khác không? Mình có thể gợi ý cho bạn những món tương tự hoặc khác trong thực đơn."
+    },
+    {
+      "id": "qa_008",
+      "question": "Mì cay kim chi bò ở quán mình có tôm không? Tôi dị ứng tôm nha.",
+      "latency_s": 2.776049852371216,
+      "passed": false,
+      "is_unsure": false,
+      "reason": "Missing expected keyword (needs at least one of: ['chưa cung cấp', 'không chắc', 'vui lòng xác nhận'])",
+      "ai_resp": "Mì cay kim chi bò không có tôm. Nguyên liệu của món này bao gồm mì Hàn Quốc, kim chi, thịt bò, xúc xích và nấm. \n\nBạn có thể yên tâm thưởng thức mà không lo về dị ứng tôm nhé! Bạn có muốn biết thêm thông tin về món ăn này hoặc các món khác không?"
+    },
+    {
+      "id": "qa_009",
+      "question": "Mì giao đến có bị nhũn do ngâm nước không?",
+      "latency_s": 2.004206895828247,
+      "passed": true,
+      "is_unsure": false,
+      "reason": "Exact Match",
+      "ai_resp": "Mì cay Sasin được đóng gói cẩn thận khi giao hàng để đảm bảo mì giữ được độ ngon và không bị nhũn. Tuy nhiên, nếu mì bị ngâm lâu trong nước, thì có thể sẽ ảnh hưởng đến độ dai và kết cấu của mì. Để thưởng thức món ăn đúng vị, bạn nên ăn ngay sau khi nhận hàng. \n\nNếu bạn có thêm câu hỏi nào khác về món ăn hay dịch vụ của quán, cứ thoải mái hỏi nhé!"
+    },
+    {
+      "id": "qa_010",
+      "question": "Thành phần cụ thể của món Takoyaki gồm những gia vị gì vậy?",
+      "latency_s": 1.27229905128479,
+      "passed": true,
+      "is_unsure": false,
+      "reason": "Exact Match",
+      "ai_resp": "Xin lỗi, nhưng mình không thể tiết lộ thành phần cụ thể của món Takoyaki. Nếu bạn cần biết thêm thông tin về món ăn này, mình có thể giúp bạn với mô tả hoặc giá cả. Bạn có muốn biết thêm không?"
+    }
+  ]
+}

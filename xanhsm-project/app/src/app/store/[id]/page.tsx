@@ -17,7 +17,7 @@ import type { Store, MenuItem } from "@/types";
 
 const TABS: { key: string; label: string }[] = [
   { key: "deals", label: "Ưu đãi hôm nay" },
-  { key: "new", label: "Món Mới Giảm Đẩm" },
+  { key: "new", label: "Món Mới Giảm Đậm" },
   { key: "drinks", label: "Đồ uống" },
 ];
 
